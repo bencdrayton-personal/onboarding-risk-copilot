@@ -1,0 +1,52 @@
+{
+  "_comment": "Synthetic, labelled test set. ground_truth is the decision a senior credit analyst would make. Signals are illustrative and NOT real bureau data.",
+  "applicants": [
+    {"abn": "11111111101", "legal_name": "Blue Gum Joinery Pty Ltd", "requested_limit_aud": 15000, "requested_terms_days": 30, "ground_truth": "APPROVE",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 12.0, "gst_registered": true, "state": "NSW", "credit_rating": "A1", "pd_12m": 1.2, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 3, "data_completeness": 0.95}},
+
+    {"abn": "11111111102", "legal_name": "Harbour Freight Co Pty Ltd", "requested_limit_aud": 25000, "requested_terms_days": 30, "ground_truth": "APPROVE",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 8.0, "gst_registered": true, "state": "VIC", "credit_rating": "A2", "pd_12m": 2.0, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 6, "data_completeness": 0.9}},
+
+    {"abn": "11111111103", "legal_name": "Stillwater Logistics Pty Ltd", "requested_limit_aud": 120000, "requested_terms_days": 45, "ground_truth": "REFER",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 10.0, "gst_registered": true, "state": "QLD", "credit_rating": "A1", "pd_12m": 1.5, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 5, "data_completeness": 0.92}},
+
+    {"abn": "11111111104", "legal_name": "Redline Electrical Pty Ltd", "requested_limit_aud": 20000, "requested_terms_days": 30, "ground_truth": "REFER",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 6.0, "gst_registered": true, "state": "WA", "credit_rating": "B1", "pd_12m": 3.0, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 0, "director_changes_90d": 2, "avg_days_beyond_terms": 9, "data_completeness": 0.8}},
+
+    {"abn": "11111111105", "legal_name": "Pinnacle Fitouts Pty Ltd", "requested_limit_aud": 30000, "requested_terms_days": 30, "ground_truth": "REFER",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 7.0, "gst_registered": true, "state": "NSW", "credit_rating": "B1", "pd_12m": 3.5, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 1, "director_changes_90d": 0, "avg_days_beyond_terms": 12, "data_completeness": 0.82}},
+
+    {"abn": "11111111106", "legal_name": "Nimbus Startup Pty Ltd", "requested_limit_aud": 15000, "requested_terms_days": 30, "ground_truth": "REFER",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 0.8, "gst_registered": true, "state": "VIC", "credit_rating": "B2", "pd_12m": 4.0, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 8, "data_completeness": 0.45}},
+
+    {"abn": "11111111107", "legal_name": "Cobalt Trades Pty Ltd", "requested_limit_aud": 20000, "requested_terms_days": 30, "ground_truth": "REFER",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 5.0, "gst_registered": true, "state": "SA", "credit_rating": "C1", "pd_12m": 6.5, "payment_defaults": 1, "default_amount_aud": 4200, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 18, "data_completeness": 0.78}},
+
+    {"abn": "11111111108", "legal_name": "Ironbark Holdings Pty Ltd", "requested_limit_aud": 20000, "requested_terms_days": 30, "ground_truth": "DECLINE",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 4.0, "gst_registered": true, "state": "NSW", "credit_rating": "E", "pd_12m": 13.0, "payment_defaults": 2, "default_amount_aud": 18500, "court_actions": 1, "director_changes_90d": 1, "avg_days_beyond_terms": 34, "data_completeness": 0.7}},
+
+    {"abn": "11111111109", "legal_name": "Defunct Ventures Pty Ltd", "requested_limit_aud": 10000, "requested_terms_days": 30, "ground_truth": "DECLINE",
+     "signals": {"entity_status": "Deregistered", "entity_type": "Australian Private Company", "abn_age_years": 3.0, "gst_registered": false, "state": "QLD", "credit_rating": "D2", "pd_12m": 9.0, "payment_defaults": 1, "default_amount_aud": 6000, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 20, "data_completeness": 0.6}},
+
+    {"abn": "11111111110", "legal_name": "Tumbleweed Retail Pty Ltd", "requested_limit_aud": 40000, "requested_terms_days": 30, "ground_truth": "DECLINE",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 2.5, "gst_registered": true, "state": "VIC", "credit_rating": "F", "pd_12m": 15.0, "payment_defaults": 3, "default_amount_aud": 31000, "court_actions": 2, "director_changes_90d": 1, "avg_days_beyond_terms": 41, "data_completeness": 0.72}},
+
+    {"abn": "11111111111", "legal_name": "Saltbush Catering Pty Ltd", "requested_limit_aud": 25000, "requested_terms_days": 30, "ground_truth": "REFER",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 4.0, "gst_registered": true, "state": "NSW", "credit_rating": "C2", "pd_12m": 7.0, "payment_defaults": 1, "default_amount_aud": 5500, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 25, "data_completeness": 0.75}},
+
+    {"abn": "11111111112", "legal_name": "Greenfield Sole Trader", "requested_limit_aud": 10000, "requested_terms_days": 30, "ground_truth": "REFER",
+     "signals": {"entity_status": "Active", "entity_type": "Individual/Sole Trader", "abn_age_years": 1.5, "gst_registered": false, "state": "WA", "credit_rating": "B2", "pd_12m": 4.5, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 14, "data_completeness": 0.5}},
+
+    {"abn": "11111111113", "legal_name": "Granite Estates Pty Ltd", "requested_limit_aud": 10000, "requested_terms_days": 60, "ground_truth": "APPROVE",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 15.0, "gst_registered": true, "state": "NSW", "credit_rating": "A1", "pd_12m": 1.0, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 2, "data_completeness": 0.97}},
+
+    {"abn": "11111111114", "legal_name": "Meridian Supplies Pty Ltd", "requested_limit_aud": 50000, "requested_terms_days": 30, "ground_truth": "APPROVE",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 9.0, "gst_registered": true, "state": "VIC", "credit_rating": "A2", "pd_12m": 2.5, "payment_defaults": 0, "default_amount_aud": 0, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 7, "data_completeness": 0.9}},
+
+    {"abn": "11111111115", "legal_name": "Hollow Log Brewing Pty Ltd", "requested_limit_aud": 18000, "requested_terms_days": 30, "ground_truth": "DECLINE",
+     "signals": {"entity_status": "Cancelled", "entity_type": "Australian Private Company", "abn_age_years": 5.0, "gst_registered": false, "state": "QLD", "credit_rating": "D1", "pd_12m": 8.5, "payment_defaults": 1, "default_amount_aud": 9000, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 22, "data_completeness": 0.65}},
+
+    {"abn": "11111111116", "legal_name": "Switchback Couriers Pty Ltd", "requested_limit_aud": 8000, "requested_terms_days": 30, "ground_truth": "REFER",
+     "signals": {"entity_status": "Active", "entity_type": "Australian Private Company", "abn_age_years": 5.0, "gst_registered": true, "state": "SA", "credit_rating": "C1", "pd_12m": 9.0, "payment_defaults": 1, "default_amount_aud": 7000, "court_actions": 0, "director_changes_90d": 0, "avg_days_beyond_terms": 19, "data_completeness": 0.8}}
+  ]
+}
